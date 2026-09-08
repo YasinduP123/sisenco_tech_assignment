@@ -43,7 +43,7 @@ docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin
 
 Then in the admin console (`http://localhost:8080`, login `admin`/`admin`):
 
-1. Create a realm (e.g. `Yasidu`).
+1. Create a realm.
 2. Create realm roles: `TEAM_MEMBER`, `MANAGER`.
 3. Enable self-registration: **Realm Settings → Login → User registration → ON**.
 4. Create a **backend** client:
