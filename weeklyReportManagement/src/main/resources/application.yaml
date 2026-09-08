@@ -5,7 +5,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/wrm_sisenco_db
     username: root
-    password: 1234
+    password: <your password>
 
   jpa:
     hibernate:
@@ -16,7 +16,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://localhost:8080/realms/Yasidu
+          issuer-uri: http://localhost:8080/realms/<Your_realms>
 
 server:
   port: 8082
