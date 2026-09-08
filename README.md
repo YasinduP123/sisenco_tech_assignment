@@ -28,10 +28,10 @@ Browser → Next.js Frontend (:3000) → Spring Boot Backend (:8082) → MySQL
 | Tool | Version |
 |---|---|
 | Node.js | 20.x LTS |
-| Java | 17+ |
+| Java | 21+ |
 | Maven | 3.9+ |
 | MySQL | 8.x |
-| Docker (recommended, for Keycloak) | latest |
+| Keycloak | latest |
 
 ---
 
@@ -75,7 +75,7 @@ schema script is required.
 ## 4. Running the Backend
 
 ```bash
-cd backend
+cd weeklyReportManagement
 ```
 
 Edit `src/main/resources/application.yml`:
@@ -113,7 +113,7 @@ Backend runs at `http://localhost:8082`. Verify with `GET http://localhost:8082/
 ## 5. Running the Frontend
 
 ```bash
-cd frontend
+cd weely-report-frontend
 npm install
 ```
 
